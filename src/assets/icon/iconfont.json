@@ -1,0 +1,72 @@
+{
+  "id": "1475527",
+  "name": "learnit",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1616890",
+      "name": "灯泡",
+      "font_class": "dengpao",
+      "unicode": "e6cb",
+      "unicode_decimal": 59083
+    },
+    {
+      "icon_id": "2158146",
+      "name": "plan",
+      "font_class": "plan",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "2263417",
+      "name": "毕业4",
+      "font_class": "biye",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "3948507",
+      "name": "课程",
+      "font_class": "kecheng",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "4906650",
+      "name": "clock",
+      "font_class": "clock",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "6048752",
+      "name": "工作",
+      "font_class": "gongzuo",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "7682644",
+      "name": "comment",
+      "font_class": "comment",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "10473055",
+      "name": "认证",
+      "font_class": "renzheng",
+      "unicode": "e710",
+      "unicode_decimal": 59152
+    },
+    {
+      "icon_id": "11049490",
+      "name": "users",
+      "font_class": "users",
+      "unicode": "e749",
+      "unicode_decimal": 59209
+    }
+  ]
+}
