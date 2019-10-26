@@ -1,7 +1,7 @@
 <template>
 	<div id="index">
     <div class="inner" id="home-section">
-	<div class="home-top home-content">
+	<div id="home-top" class="home-content">
 		<div class="bg-cover">
 		<div class="container">
 		    <div class="ad-content">
@@ -31,7 +31,7 @@
 		</div><!-- bg-cover -->
 	</div> <!-- home-top -->
 	
-	<div class="home-course home-content">
+	<div id="home-course" class="home-content">
 		<div class="bg-cover">
 		<div class="container">
 			<h2 class="section-title">COURSE</h2>
@@ -88,7 +88,7 @@
 		</div>
 	</div>
 
-	<div class="home-merit home-content">
+	<div id="home-merit" class="home-content">
 		<div class="container">
             <h2 class="section-title">Programs</h2>
             <p class="ttl-cap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellat aut neque! Doloribus sunt non aut reiciendis, vel recusandae obcaecati hic dicta repudiandae in quas quibusdam ullam, illum sed veniam!</p>
@@ -97,12 +97,14 @@
 	            <img src="../../assets/merit01.png" alt="png" class="img-fluid">
 	          	</div>
 	          	<div class="merit-text">
+	          	<div class="text-inner">
 	            <h2 class="text-ttl">Learn from WEB</h2>
 	            <p class="text-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
 				<ul class="text-data">
 					<li><span class="icon"><i class="iconfont icon-renzheng"></i></span>W3Cメンバーだからこそ最新で正確なスキル</li>
 					<li><span class="icon"><i class="iconfont icon-kecheng"></i></span>1,000以上のオンラインコース</li>
 				</ul>
+				</div>
 	            </div>
             </article>
         	<article class="merit-item">
@@ -110,12 +112,14 @@
 	            <img src="../../assets/merit02.png" alt="png" class="img-fluid">
 	          	</div>
 	          	<div class="merit-text">
+	          	<div class="text-inner">
 	            <h2 class="text-ttl">Learn with PLAN</h2>
 	            <p class="text-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
 				<ul class="text-data">
 					<li><span class="icon"><i class="iconfont icon-dengpao"></i></span>科学的に証明された学習法</li>
 					<li><span class="icon"><i class="iconfont icon-plan"></i></span>勉強を続けるための習慣力を高める3つのコツ</li>
 				</ul>
+			    </div>
 	            </div>
             </article>
         	<article class="merit-item">
@@ -123,19 +127,21 @@
 	            <img src="../../assets/merit03.png" alt="png" class="img-fluid">
 	          	</div>
 	          	<div class="merit-text">
+	          	<div class="text-inner">
 	            <h2 class="text-ttl">Learn for GOAL</h2>
 	            <p class="text-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
 				<ul class="text-data">
 					<li><span class="icon"><i class="iconfont icon-gongzuo"></i></span>10大キャリアサポート</li>
 					<li><span class="icon"><i class="iconfont icon-biye"></i></span>25,000人を超える卒業生</li>
 				</ul>
+				</div>
 	            </div>
             </article>
 		</div>
 
 	</div>
 
-	<div class="home-contact home-content">
+	<div id="home-contact" class="home-content">
 		<div class="container">
 			<h2 class="section-title">CONTACT</h2>
             <p class="ttl-cap">Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
@@ -163,7 +169,7 @@
               </div>
               <div class="form-group row">
                 <div>
-                  <textarea class="form-control" id="" cols="30" rows="10" placeholder="Write your message here."></textarea>
+                  <textarea class="form-control" id="" cols="30" rows="5" placeholder="Write your message here."></textarea>
                 </div>
               </div>
 

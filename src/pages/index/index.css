@@ -14,21 +14,22 @@
 	margin: 0 auto;
 }
 
+
 /* home-top */
-.home-top{
+#home-top{
 	height: 100vh;
-    background: url(/static/img/hero_1.ab80f89.jpg);
+    background: url(../../assets/hero_1.jpg);
     background-size: cover;
     position: relative;
 }
 
-.home-top .bg-cover{
+#home-top .bg-cover{
 	background: rgba(52, 58, 64,0.8);
     height: 100%;
     width: 100%;
 }
 
-.home-top .container{
+#home-top .container{
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -37,25 +38,25 @@
 	align-items: center;
 }
 
-.home-top .container .ad-content{
+#home-top .container .ad-content{
 	width: 50%;
 	text-align: left;
 	color: #fff;
 }
-.home-top .container .ad-content h1{
+#home-top .container .ad-content h1{
 	font-family: "jp-ttl";
 }
-.home-top .container .ad-content p{
+#home-top .container .ad-content p{
 	color: rgba(255, 255, 255, 0.8);
 	font-size: 18px;
 	margin-bottom: 24px;
 	line-height: 1.8em;
 }
-.home-top .container .ad-content .btn{
+#home-top .container .ad-content .btn{
 	width: 160px;
 	font-size: 14px;
 }
-.home-top .container .login-box{
+#home-top .container .login-box{
 	width: 40%;
 	margin-left: 10%;
 	background: #fff;
@@ -64,33 +65,32 @@
 	text-align: left;
 }
 
-.home-top .container .login-box h3{
+#home-top .container .login-box h3{
 	margin-bottom: 24px;
 	font-weight: normal;
 	font-size: 24px;
 }
 
-.home-top .container .login-box .btn{
+#home-top .container .login-box .btn{
 	padding: 12px 30px;
 	font-size: 14px;
 }
 
 
 /* home-course */
-.home-course{
+#home-course{
 	width: 100%;
 	height: 650px;
-	margin-bottom: 70px;
 }
-.home-course .bg-cover{
+#home-course .bg-cover{
 	background: #00A491;
 	padding: 70px 0 208px;
 	position: relative;
 }
-.home-course h2{
+#home-course h2{
 	color:#fff;
 }
-.home-course .course-list{
+#home-course .course-list{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -174,23 +174,29 @@
 }
 
 /* home-merit */
-.home-merit .merit-item{
+#home-merit{
+	padding-top: 70px;
+}
+#home-merit .merit-item{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-top: 70px;
+	padding-top: 40px;
 }
-.home-merit .merit-item:nth-child(2n){
+#home-merit .merit-item:nth-child(2n){
 	flex-direction: row-reverse;
 }
 
-.home-merit .merit-item .merit-img,
-.home-merit .merit-item .merit-text{
+#home-merit .merit-item .merit-img,
+#home-merit .merit-item .merit-text{
 	width: 50%;
 }
-.home-merit .merit-item .merit-text{
-	padding: 70px 80px; 
+#home-merit .merit-item .merit-text{
+	padding: 0 80px; 
 	text-align: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .merit-text h2{
 	font-size: 32px;
@@ -224,23 +230,23 @@
 }
 
 /* home-contact */
-.home-contact{
-	margin: 70px auto;
+#home-contact{
+	padding: 70px 0;
 }
 
-.home-contact form{
+#home-contact form{
 	width: 665px;
 	margin:24px auto 0;
 }
-.home-contact form .form-group:first-child{
+#home-contact form .form-group:first-child{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.home-contact form .form-group:first-child div{
+#home-contact form .form-group:first-child div{
 	width: calc(100%/2 - 20px);
 }
 
-.home-contact form .btn{
+#home-contact form .btn{
 	width: 200px;
 }
