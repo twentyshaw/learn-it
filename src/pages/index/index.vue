@@ -10,20 +10,20 @@
 		      <p><a href="#" class="btn">会員登録</a></p>
 		    </div>
 
-		    <div class="login-box">
+		    <div class="signup-box userbox">
 		      <form action="" method="post" class="form-box">
 		        <h3>Sign Up</h3>
 		        <div class="form-group">
-		          <input type="text" class="form-control" placeholder="Email Addresss">
+		          <input v-model="email" type="text" class="form-control" placeholder="Email Addresss"/>
 		        </div>
 		        <div class="form-group">
-		          <input type="password" class="form-control" placeholder="Password">
-		        </div>
-		        <div class="form-group mb-4">
-		          <input type="password" class="form-control" placeholder="Re-type Password">
+		          <input v-model="username" type="text" class="form-control" placeholder="Username"/>
 		        </div>
 		        <div class="form-group">
-		          <input type="submit" class="btn btn-primary btn-pill" value="Sign up">
+		          <input v-model="password" type="password" class="form-control" placeholder="Password"/>
+		        </div>
+		        <div class="form-group">
+		          <input type="submit" class="btn btn-primary btn-pill" value="Sign up" @click="onRegister"/>
 		        </div>
 		      </form>
 			</div>

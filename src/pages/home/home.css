@@ -1,0 +1,198 @@
+#home dl:last-child{
+	margin-bottom: 0;
+}
+/* home-top */
+.home-top .user-box,
+.home-top .achievement{
+	width: calc(100%/2 - 10px);
+}
+
+.user-box{
+	text-align: left;
+	padding: 0;
+	background: #038757;
+	color: #fff;
+}
+.user-box-inner{
+	width: 100%;
+	height: 100%;
+	background: url(../../assets/home-logo.png) 100% 0 no-repeat;
+	background-size: 40%;
+}
+.user-box .user-text{
+	font-size: 26px;
+	padding: 30px;
+}
+#home .user-text .ttl{
+	color: #fff;
+}
+.user-box .goLearn{
+	display: block;
+	width: 160px;
+	padding: 0 30px 30px; 
+}
+.user-box .goLearn a{
+	display: block;
+	width: 100%;
+	padding: 12px 18px;
+	border-radius: 10px;
+	background: #fff;
+	text-align: center;
+	font-weight: bold;
+	color: #00A491;
+	font-size: 18px;
+}
+.achievement{
+	position: relative;
+}
+.achievement .achi-inner{
+	text-align: left;
+}
+.achievement .icon i{
+    position: absolute;
+    top: 20px;
+    right: 26px;
+    font-size: 120px;
+    color: #038757;
+}
+.achi-inner li{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.achi-inner li .achi-item{
+	padding: 0 10px;
+	font-weight: bold;
+	font-size: 26px;
+	color: #038757;
+}
+.achievement p{
+	text-align: left;
+}
+
+/* user-data */
+.user-data .line-data{
+	width: calc(64% - 10px);
+}
+.user-data .sector-data{
+	width: calc(36% - 10px);
+}
+
+/* social */
+.user-memo,
+.social-inner{
+	width: calc(100%/2 - 10px); 
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* memo */
+.memo-inner dl{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+	margin-bottom: 14px;
+	padding-bottom: 14px;
+	border-bottom: 1px solid #ccc;
+}
+.memo-inner dl dt{
+	margin-bottom: 10px;
+}
+.memo-inner dl dt .memo-ttl{
+	font-weight: bold;
+	color: #5d78ff;
+}
+.memo-inner dl dt .memo-ttl:before{
+	font-family:"iconfont";
+    font-size:16px;
+    font-style:normal;
+	content: "\E61D";
+	padding-right: 10px;
+}
+
+.memo-inner dl dt .memo-time{
+	font-size: 12px;
+	color: #828181;
+	padding-left: 10px;
+}
+.user-memo .btn-wrapper{
+	margin: 20px 0 0 auto;
+}
+.user-memo .btn{
+	background: none;
+	border:2px solid #00A491;
+	border-radius: 10px;
+	width: 110px;
+	color: #00A491;
+    padding:10px;
+    vertical-align: middle;
+}
+.user-memo .btn:after{
+	content: "\e63b";
+	font-family:"iconfont";
+    font-size:16px;
+    font-style:normal;
+    vertical-align: middle;
+}
+/* recent */
+.recent dl.recent-user{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	text-align: left;
+}
+.recent dl.recent-user dt{
+	width: 20%;
+}
+.recent dl.recent-user dt .cus-icon{
+	display: block;
+	width: 60px;
+	height: 60px;
+}
+.recent dl.recent-user dt .cus-icon img{
+	border-radius: 6px;
+}
+.recent dl.recent-user dd{
+	width: calc(80% - 20px);
+}
+.recent dl.recent-user dd .rec-text{
+	border-bottom: 1px solid #000;
+}
+.recent dl.recent-user dd .rec-time{
+	display: block;
+	text-align: right;
+	color: #828181;
+}
+
+/* rank */
+.rank{
+	width: 100%;
+}
+.rank-inner dl{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px dotted #ccc;
+	align-items: center;
+}
+.rank-inner dl .cus-icon{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.rank-inner dl .cus-icon img{
+	border-radius: 50%;	
+}
+.rank-inner dl .cus-name{
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 20px;
+}
+.rank-inner dd{
+	color: #00A491;
+}

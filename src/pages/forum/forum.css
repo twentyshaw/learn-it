@@ -1,0 +1,12 @@
+#user-top{
+	display: grid;
+	grid-template-columns: 20% auto;
+	grid-template-rows: 78px auto;
+	grid-template-areas: ". ."
+						 ". main";
+}
+
+#user-top .main{
+	grid-area: main;
+	padding:20px;
+}

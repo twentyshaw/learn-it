@@ -1,5 +1,24 @@
+import { mapActions } from 'vuex'
+ 
 export default{
-	name:'Index'
+	data(){
+		return {
+			email:'',
+			username:'',
+			password:''
+		}
+	},
+	methods:{
+		...mapActions(['register']),
+		onRegister(e){
+			e.preventDefault()
+			this.register({email:this.email,username:this.username,password:this.password})
+				.then(()=>{
+					console.log("success"),
+					this.$router.push({path:'/user/home'})
+				})
+		}
+	}
 }
 window.onscroll = function () {
 	/*导航栏浮起*/

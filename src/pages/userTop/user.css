@@ -1,0 +1,29 @@
+#user-top{
+	display: grid;
+	grid-template-columns: 20% auto;
+	grid-template-rows: 78px auto;
+	grid-template-areas: ". ."
+						 ". main";
+}
+
+#user-top .main{
+	grid-area: main;
+	padding:20px;
+}
+
+.box{
+	padding:30px;
+	margin: 0 0 20px;
+	border-radius: 6px;
+	box-shadow: 0 0 1px 1px #ccc; 
+	background: #fff;
+}
+.box-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.ttl{
+	padding-bottom: 10px;
+	color: #00A491;
+}

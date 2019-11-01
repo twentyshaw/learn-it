@@ -1,0 +1,32 @@
+#course .box{
+	padding: 20px;
+}
+/* course-list */
+.course-list .course-inner ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.course-list .course-inner ul li{
+	width: 120px;
+	padding: 10px 14px;
+	margin: 20px 20px 0;
+	border:2px solid #00A491;
+	border-radius: 10px;
+	color: #00A491;
+	font-weight: bold;
+}
+
+/* video-content */
+.video-content{
+	width: 60%;
+}
+
+/* memo-ctrl */
+.memo-ctrl{
+	width: calc(40% - 20px);
+}
+.memo-ctrl .btn{
+	margin-left: auto;
+	padding: 10px 26px;
+}
