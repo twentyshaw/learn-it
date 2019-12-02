@@ -9,6 +9,7 @@
 #user-top .main{
 	grid-area: main;
 	padding:20px;
+	height: 100vh;
 }
 
 .box{
@@ -26,4 +27,7 @@
 .ttl{
 	padding-bottom: 10px;
 	color: #00A491;
+}
+.highlight a{
+	background: rgba(0, 214, 189,0.8);
 }

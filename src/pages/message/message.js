@@ -4,5 +4,10 @@ export default{
 	name:'UserTop',
 	components:{
 		Side
-	}
+	},
+	data() {
+		return {
+		  textarea: ''
+		}
+	  }
 }

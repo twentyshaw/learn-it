@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1123595",
+      "name": "Pen",
+      "font_class": "pen",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
       "icon_id": "1616890",
       "name": "灯泡",
       "font_class": "dengpao",
@@ -34,6 +41,13 @@
       "unicode_decimal": 59016
     },
     {
+      "icon_id": "2970157",
+      "name": "查看",
+      "font_class": "chakan",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
       "icon_id": "3948507",
       "name": "课程",
       "font_class": "kecheng",
@@ -60,6 +74,20 @@
       "font_class": "course",
       "unicode": "e605",
       "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "5528291",
+      "name": "评论",
+      "font_class": "pinglun_huaban",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "5542465",
+      "name": "右",
+      "font_class": "right1",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
     },
     {
       "icon_id": "5583901",
@@ -104,6 +132,13 @@
       "unicode_decimal": 58992
     },
     {
+      "icon_id": "7703127",
+      "name": "书签",
+      "font_class": "tag",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
       "icon_id": "7905416",
       "name": "log-out",
       "font_class": "log-out",
@@ -116,6 +151,27 @@
       "font_class": "hebingxingzhuang",
       "unicode": "e601",
       "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "8378697",
+      "name": "左滑",
+      "font_class": "left",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "9285205",
+      "name": "分数",
+      "font_class": "fenshu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "9384881",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e603",
+      "unicode_decimal": 58883
     },
     {
       "icon_id": "9515016",

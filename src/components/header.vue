@@ -18,7 +18,7 @@
 				<p>What doesn’t kill you, makes you stronger</p>
 			</div>
 			<div class="user-tag">
-				<span class="greet">Hi, <em>{{user.attributes.username}}</em></span>
+				<span class="greet">Hi, <em>{{username}}</em></span>
 				<span class="user-icon"><img src="../assets/user.jpg"></span>
 			</div>
 		</div>
@@ -39,14 +39,13 @@ import { mapGetters, mapActions} from 'vuex'
 					'isLogin'
 				]),
 			username(){
-				return this.user
+				return this.user.username
 			}
 		},
 		methods:{
 			scrollTo(e){
 				e.preventDefault()
 				var target = document.querySelector(`#${e.target.dataset.view}`)
-				console.log(target)
 				target.scrollIntoView()
 			},
 
@@ -127,6 +126,7 @@ header.login{
 	right: 0;
 	border-bottom: 1px solid #eff0f6;
 	background: #fff;
+	z-index: 999999;
 }
 header.login .nav-bar{
 	padding: 14px 20px;

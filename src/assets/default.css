@@ -19,8 +19,10 @@ a{
 	color: #000000;
 }
 
-a:hover{
+a:hover,
+.btn:hover{
 	opacity: 0.8;
+	cursor: pointer;
 }
 
 h1{
@@ -106,4 +108,31 @@ img{
 }
 .form-group .btn{
 	border-width: 0;
+}
+
+/* element-ui 组件 样式重写 */
+.message-popup{
+	z-index: 999999999!important;
+}
+.el-button--text{
+	color: #00A491;
+}
+.el-button:focus,
+.el-button:hover{
+	color: #00A491;
+    border-color: #00A491;
+    background-color: #e9f5f3;
+}
+.el-button--success,
+.el-button--primary{
+	background-color: #00A491;
+    border-color: #00A491;
+}
+.el-button--success:focus,
+.el-button--success:hover,
+.el-button--primary:focus,
+.el-button--primary:hover{
+	color: #fff;
+	background-color: rgba(0, 164, 145,0.8);
+    border-color: rgba(0, 164, 145,0.8);
 }

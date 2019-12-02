@@ -2,13 +2,23 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import Vuex from 'vuex'
+import  VueResource  from 'vue-resource'
 import App from './App'
 import store from './store/main.js'
+import auth from './api/auth.js'
 import router from './router'
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 import './assets/font/font.css'
 
 
+
+
 Vue.config.productionTip = false
+Vue.use(VueResource)
+Vue.use(ElementUI)
+
+
 
 /* eslint-disable no-new */
 new Vue({
@@ -17,7 +27,7 @@ new Vue({
   store,
   components: { App },
   template: '<App/>',
-  created:function(){
-  	console.log(this.$store)
-  }
+  // created:function(){
+  // 	this.$store.dispatch('courseInfo')
+  // }
 })

@@ -1,12 +1,33 @@
-#user-top{
-	display: grid;
-	grid-template-columns: 20% auto;
-	grid-template-rows: 78px auto;
-	grid-template-areas: ". ."
-						 ". main";
+.memo-inner{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#user-top .main{
-	grid-area: main;
-	padding:20px;
+/* 卡片样式 */
+.text {
+  font-size: 14px;
+}
+
+.item {
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.clearfix:after {
+  clear: both
+}
+
+.box-card {
+  width: calc(100%/3 - 20px);
+  margin: 10px;
+}
+
+/* 追加卡片样式 */
+.el-card__header .clearfix{
+  text-align: left;
+}
+.card-ttl .memo-time{
+  font-size: 10px;
+  padding-left: 10px;
 }

@@ -3,7 +3,7 @@
 	position: relative;
 }
 .section-title{
-	font-size: 48px;
+	font-size: 32px;
 	margin-bottom: 24px;
 }
 
@@ -18,7 +18,7 @@
 /* home-top */
 #home-top{
 	height: 100vh;
-    background: url(../../assets/hero_1.jpg);
+    background: url(../../assets/hero.jpg);
     background-size: cover;
     position: relative;
 }
@@ -65,11 +65,11 @@
 /* home-course */
 #home-course{
 	width: 100%;
-	height: 650px;
+	height: 550px;
 }
 #home-course .bg-cover{
 	background: #00A491;
-	padding: 70px 0 208px;
+	padding: 50px 0 200px;
 	position: relative;
 }
 #home-course h2{
@@ -79,29 +79,29 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	padding: 190px 20px 0;
+	padding: 120px 20px 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
 .course-list article{
-	width: calc(100%/3 - 100px);
-	margin:0 30px;
+	width: calc(100%/3 - 120px);
+	margin:0 20px;
 	background: #fff;
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.3);
 }
 .course-list article .course-image{
-	height: 200px;
+	height: 180px;
 	overflow: hidden;
 }
 
 .course-list article .course-inner{
 	position: relative;
-    padding: 35px 24px 24px;
+    padding: 20px 16px 16px;
     color: grey;
     text-align: left;
-    height: 200px;
+    height: 190px;
 }
 .course-inner .course-price{
 	position: absolute;
@@ -146,7 +146,7 @@
 }
 .course-data .course-cmt,
 .course-data .course-stds{
-	padding: 20px;
+	padding: 16px;
 }
 .course-data .course-stds:before{
 	content: '\e749';
@@ -160,7 +160,7 @@
 
 /* home-merit */
 #home-merit{
-	padding-top: 70px;
+	padding-top: 45px;
 }
 #home-merit .merit-item{
 	display: flex;
@@ -174,17 +174,18 @@
 
 #home-merit .merit-item .merit-img,
 #home-merit .merit-item .merit-text{
-	width: 50%;
+    width: 44%;
+    margin: 0 30px;
 }
 #home-merit .merit-item .merit-text{
-	padding: 0 80px; 
+	padding: 0 50px; 
 	text-align: left;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 .merit-text h2{
-	font-size: 32px;
+	font-size: 28px;
 	font-weight: normal;
 }
 .merit-text .text-cont{
@@ -216,7 +217,7 @@
 
 /* home-contact */
 #home-contact{
-	padding: 70px 0;
+	padding: 60px 0;
 }
 
 #home-contact form{

@@ -10,7 +10,7 @@
           <input v-model="password"  type="password" class="form-control" placeholder="Password">
         </div>
         <div class="form-group">
-          <input @click="signIn" type="submit" class="btn btn-primary btn-pill" value="Sign In">
+          <input @click="signIn" @keyup.enter="signIn" type="submit" class="btn btn-primary btn-pill" value="Sign In">
         </div>
       </form>
       <p><a href="#">Forgot Password</a></p>
@@ -76,7 +76,6 @@ export default{
 			e.preventDefault()
 			this.login({username:this.username, password:this.password})
 				.then(()=>{
-					console.log("success"),
 					this.$router.push({path:'/user/home'})
 				})
 		}

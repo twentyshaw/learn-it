@@ -6,29 +6,29 @@
 			<div class="user-text">
 				<p class="ttl">Start learning to code<br>with <strong>LearnIT</strong></p>
 			</div>
-			<span class="goLearn"><router-link to="/user/home">START</router-link></span>
+			<span class="goLearn"><router-link to="/user/course">START</router-link></span>
 			</div>
 		</div>
 		<div class="achievement box">
 			<span class="icon"><i class="iconfont icon-rili"></i></span>
 			<ul class="achi-inner">
-				<li>这是你加入learnit的第<span id="achi-days" class="achi-item">79</span>天</li>
-				<li>你已经学习了<span id="achi-lesson" class="achi-item">66</span>节课</li>
-				<li>你获得了<span id="achi-point" class="achi-item">108</span>个学分</li>
+				<li>It has been <span id="achi-days" class="achi-item">79</span>days since you came to LearnIT</li>
+				<li>You have studied<span id="achi-lesson" class="achi-item">66</span>lessons </li>
+				<li>You have already earned <span id="achi-point" class="achi-item">108</span>points</li>
 			</ul>
-			<p>继续加油吧！</p>
+			<p>Keep fighting!</p>
 		</div>
 		</div>
 		<div class="home-main">
 		<div class="user-data box-wrapper">
 			<div class="line-data box">
-				<h3 class="ttl">Line-Chart</h3>
-				<div class="data-line"><img src="../../assets/line-chart.png"></div>
+				<div class="data-line">
+					<Compara/>
+				</div>
 			</div>
 			<div class="sector-data box">
-				<h3 class="ttl">Line-Chart</h3>
 				<div class="data-sector">
-				<img src="../../assets/rector-chart.png">
+					<Point/>
 				</div>
 			</div>			
 		</div>

@@ -50,13 +50,13 @@
 }
 .achievement .icon i{
     position: absolute;
-    top: 20px;
-    right: 26px;
-    font-size: 120px;
+    top: 36px;
+    right: 24px;
+    font-size: 94px;
     color: #038757;
 }
 .achi-inner li{
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 10px;
 }
 .achi-inner li .achi-item{
@@ -71,10 +71,10 @@
 
 /* user-data */
 .user-data .line-data{
-	width: calc(64% - 10px);
+	width: calc(60% - 10px);
 }
 .user-data .sector-data{
-	width: calc(36% - 10px);
+	width: calc(40% - 10px);
 }
 
 /* social */

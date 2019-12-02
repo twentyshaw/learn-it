@@ -2,14 +2,14 @@
 	<aside>
 		<div class="logo">LearnIT</div>
 		<ul>
-			<li><router-link to="/user/home"><span class="icon"><i class="iconfont icon-xuanzhongshangcheng"></i></span>Home</router-link></li>
-			<li><router-link to="/user/course"><span class="icon"><i class="iconfont icon-course2"></i></span>Course</router-link></li>
-			<li><router-link to="/user/exercise"><span class="icon"><i class="iconfont icon-Exercises"></i></span>exercise</router-link></li>
-			<li><router-link to="/user/memo"><span class="icon"><i class="iconfont icon-ziyuan"></i></span>Memo</router-link></li>
-			<li><router-link to="/user/message"><span class="icon"><i class="iconfont icon-message"></i></span>Message</router-link></li>
-			<li><router-link to="/user/forum"><span class="icon"><i class="iconfont icon-kafei"></i></span>Forum</router-link></li>
+			<li data-nav="home" class="highlight"><router-link to="/user/home"><span class="icon"><i class="iconfont icon-xuanzhongshangcheng"></i></span>Home</router-link></li>
+			<li data-nav="course"><router-link to="/user/course"><span class="icon"><i class="iconfont icon-course2"></i></span>Course</router-link></li>
+			<li data-nav="exercise"><router-link to="/user/exercise"><span class="icon"><i class="iconfont icon-Exercises"></i></span>Exercise</router-link></li>
+			<li data-nav="memo"><router-link to="/user/memo"><span class="icon"><i class="iconfont icon-ziyuan"></i></span>Memo</router-link></li>
+			<li data-nav="message"><router-link to="/user/message"><span class="icon"><i class="iconfont icon-message"></i></span>Message</router-link></li>
+			<li data-nav="forum"><router-link to="/user/forum"><span class="icon"><i class="iconfont icon-kafei"></i></span>Forum</router-link></li>
 		</ul>
-		<div class="out"><span class="icon"><i class="iconfont icon-log-out"></i></span>Logout</div>
+		<div class="out" @click="logOut"><span class="icon"><i class="iconfont icon-log-out"></i></span>Logout</div>
 	</aside>
 </template>
 
@@ -61,7 +61,15 @@ aside .out:hover{
 </style>
 
 <script type="text/javascript">
+import { mapActions } from 'vuex'
 	export default{
-		name:"Side"
+		name:"Side",
+		methods:{
+			...mapActions(['logout']),
+			logOut(){
+				this.logout()
+				this.$router.push('/')
+			}
+		}
 	}
 </script>

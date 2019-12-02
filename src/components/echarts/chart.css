@@ -1,0 +1,19 @@
+#charts-ability .my-chart,
+#charts-ability .my-chart canvas{
+  width: 540px!important;
+  height: 360px!important;
+}
+#charts-compara .my-chart,
+#charts-compara .my-chart canvas{
+  width: 570px!important;
+  height: 380px!important;
+}
+
+#charts-point .my-chart,
+#charts-point .my-chart div:first-child,
+#charts-point .my-chart canvas{
+  width: 100%!important;
+}
+#charts-point .my-chart canvas{
+    height: auto!important;
+}

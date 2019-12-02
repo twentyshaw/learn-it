@@ -1,12 +1,44 @@
-#user-top{
-	display: grid;
-	grid-template-columns: 20% auto;
-	grid-template-rows: 78px auto;
-	grid-template-areas: ". ."
-						 ". main";
+#test .test-list{
+	width: 40%;
+}
+#test .test-point{
+	width: calc(60% - 20px)
+}
+.testlist-inner ul li{
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	text-align: left;
 }
 
-#user-top .main{
-	grid-area: main;
-	padding:20px;
+.testlist-inner ul li:first-child{
+	border-top: 1px solid #ccc;
+}
+.testlist-inner ul li::before{
+	content: "\e679";
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	padding-right: 10px;
+}
+.testlist-inner ul li span.icon{
+	float: right;
+	color: #00A491;
+}
+
+.test-contents .box-card{
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.test-contents .box-card li{
+	padding: 10px;
+}
+.test-contents .box-card li label{
+	padding-left: 10px;
+}
+.test-submit .el-button{
+	background-color: #00A491;
+    border-color:#00A491;
 }
