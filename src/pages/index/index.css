@@ -18,7 +18,7 @@
 /* home-top */
 #home-top{
 	height: 100vh;
-    background: url(../../assets/hero.jpg);
+    background: url(~@/assets/hero.jpg);
     background-size: cover;
     position: relative;
 }
