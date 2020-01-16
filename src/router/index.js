@@ -5,10 +5,14 @@ import User from '@/pages/userTop/user.vue'
 import Home from '@/pages/home/home.vue'
 import Course from '@/pages/course/course.vue'
 import Forum from '@/pages/forum/forum.vue'
+import ForumDetail from '@/pages/forum/forum-detail.vue'
+import Ask from '@/pages/forum/ask.vue'
 import Memo from '@/pages/memo/memo.vue'
+import MemoDetail from '@/pages/memo/memo-detail.vue'
 import Message from '@/pages/message/message.vue'
 import Test from '@/pages/test/test.vue'
-import Test01 from '@/components/tests/test01.vue'
+import Exam from '@/components/tests/exam.vue'
+import Set from '@/pages/setting/set.vue'
 import store from '@/store/main.js'
 
 Vue.use(Router)
@@ -40,12 +44,38 @@ var router = new Router({
         {
           path:'forum',
           name: Forum,
-          component:Forum
+          component:Forum,
+          children:[
+            {
+              path:'forum_detail/:forumID',
+              name:ForumDetail,
+              component:ForumDetail,
+              props:true
+            },
+            {
+              path:'forum_ask',
+              name:Ask,
+              component:Ask
+            }
+          ]
         },
         {
           path:'memo',
           name: Memo,
-          component:Memo
+          component:Memo,
+          children:[
+            {
+              path:'memo_detail/:memoID',
+              name:MemoDetail,
+              component:MemoDetail,
+              props:true
+            },
+            {
+              path:'memo_detail',
+              name:MemoDetail,
+              component:MemoDetail           
+            }
+          ]
         },
         {
           path:'message',
@@ -58,11 +88,17 @@ var router = new Router({
           component:Test,
           children:[
             {
-              path:'test01',
-              name:Test01,
-              component:Test01
+              path:'exam/:examid',
+              name:Exam,
+              component:Exam,
+              props:true
             }
           ]
+        },
+        {
+          path:'setting',
+          name:Set,
+          component:Set
         }
 
     	]

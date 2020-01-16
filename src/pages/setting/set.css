@@ -1,0 +1,68 @@
+.avatar-uploader .el-upload {
+border: 1px dashed #d9d9d9;
+border-radius: 6px;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+border-color: #409EFF;
+}
+.avatar-uploader-icon {
+font-size: 28px;
+color: #8c939d;
+width: 178px;
+height: 178px;
+line-height: 178px;
+text-align: center;
+}
+.avatar {
+width: 178px;
+height: 178px;
+display: block;
+}
+
+.set-main{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto 30px;
+}
+.set-avatar{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    background: #ccc;
+}
+.set-avatar:hover{
+    cursor: pointer;
+}
+.avatar-uploader-icon{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 64px;
+    color: #fff;
+}
+.avatar-show{
+    width: 80px;
+    height: 80px;    
+}
+.avatar-show img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.set-profile{
+    width: 60%;
+    margin:0 auto;
+    text-align: left;
+}
+input[type="file"] {
+    display: none; 
+    height: 100%;
+    width: 100%;
+}

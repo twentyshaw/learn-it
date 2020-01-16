@@ -2,44 +2,53 @@
     "questions":[
         {"id": 1,
          "contents":"マーケティングミックスの検討に用いる考え方の一つであり，売り手側の視点を分類したものはどれか。" ,
-         "answers":["4C","4P","PPM","SWOT"] 
+         "answers":["4C","4P","PPM","SWOT"] ,
+         "rightAnswers":"b"
         },
         {"id": 2,
         "contents":"マーケティングミックスの検討に用いる考え方の一つであり，売り手側の視点を分類したものはどれか。" ,
-        "answers":["4C","4P","PPM","SWOT"] 
+        "answers":["4C","4P","PPM","SWOT"] ,
+        "rightAnswers":"b"
         },
         {"id": 3,
         "contents":"マーケティングミックスの検討に用いる考え方の一つであり，売り手側の視点を分類したものはどれか。" ,
-        "answers":["4C","4P","PPM","SWOT"] 
+        "answers":["4C","4P","PPM","SWOT"] ,
+        "rightAnswers":"b"
         },
         {"id": 4,
         "contents":"マーケティングミックスの検討に用いる考え方の一つであり，売り手側の視点を分類したものはどれか。" ,
-        "answers":["4C","4P","PPM","SWOT"] 
+        "answers":["4C","4P","PPM","SWOT"] ,
+        "rightAnswers":"b"
         },
         {"id": 5,
         "contents":"マーケティングミックスの検討に用いる考え方の一つであり，売り手側の視点を分類したものはどれか。" ,
-        "answers":["4C","4P","PPM","SWOT"] 
+        "answers":["4C","4P","PPM","SWOT"] ,
+        "rightAnswers":"b"
         },
         {"id": 6,
         "contents":"マーケティングミックスの検討に用いる考え方の一つであり，売り手側の視点を分類したものはどれか。" ,
-        "answers":["4C","4P","PPM","SWOT"] 
+        "answers":["4C","4P","PPM","SWOT"] ,
+        "rightAnswers":"b"
         },
         {"id": 7,
         "contents":"マーケティングミックスの検討に用いる考え方の一つであり，売り手側の視点を分類したものはどれか。" ,
-        "answers":["4C","4P","PPM","SWOT"] 
+        "answers":["4C","4P","PPM","SWOT"] ,
+        "rightAnswers":"b"
         },
         {"id": 8,
         "contents":"マーケティングミックスの検討に用いる考え方の一つであり，売り手側の視点を分類したものはどれか。" ,
-        "answers":["4C","4P","PPM","SWOT"] 
+        "answers":["4C","4P","PPM","SWOT"] ,
+        "rightAnswers":"b"
         },
         {"id": 9,
         "contents":"マーケティングミックスの検討に用いる考え方の一つであり，売り手側の視点を分類したものはどれか。" ,
-        "answers":["4C","4P","PPM","SWOT"] 
+        "answers":["4C","4P","PPM","SWOT"] ,
+        "rightAnswers":"b"
         },
         {"id": 10,
         "contents":"マーケティングミックスの検討に用いる考え方の一つであり，売り手側の視点を分類したものはどれか。" ,
-        "answers":["4C","4P","PPM","SWOT"] 
+        "answers":["4C","4P","PPM","SWOT"] ,
+        "rightAnswers":"b"
         }  
-    ],
-    "rightAnswers":["b","d","c","c","c","c","d","d","c","d"]
+    ]
 }

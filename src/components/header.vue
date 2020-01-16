@@ -19,7 +19,13 @@
 			</div>
 			<div class="user-tag">
 				<span class="greet">Hi, <em>{{username}}</em></span>
-				<span class="user-icon"><img src="../assets/user.jpg"></span>
+				<el-dropdown>
+				<span class="user-icon el-dropdown-link" :style="avatar"></span>
+				<el-dropdown-menu slot="dropdown" style="padding:0;">
+					<el-dropdown-item><span @click="toSet">Settings</span></el-dropdown-item>
+					<el-dropdown-item>Help</el-dropdown-item>
+				</el-dropdown-menu>
+				</el-dropdown>
 			</div>
 		</div>
 	</template>
@@ -36,10 +42,19 @@ import { mapGetters, mapActions} from 'vuex'
 		computed:{
 			...mapGetters([
 					'user',
-					'isLogin'
+					'isLogin',
+					'usericon'
 				]),
 			username(){
 				return this.user.username
+			},
+			avatar(){
+				return {
+					backgroundImage:"url("+ this.usericon +")", //计算属性依赖this.usericon，当该值改变时计算属性会更新
+					backgroundRepeat:"no-repeat",
+					backgroundSize:'cover',
+					backgroundPosition:'center'
+				}
 			}
 		},
 		methods:{
@@ -53,6 +68,11 @@ import { mapGetters, mapActions} from 'vuex'
 				e.preventDefault()
 				var box = document.querySelector('.userLogin')
 				box.style.display = 'flex'
+			},
+
+			toSet(e){
+				console.log(this.$router)
+				this.$router.push({path:'/user/setting'})
 			}
 		}
 	}
@@ -149,10 +169,7 @@ header.login .user-icon{
 	height: 50px;
 	border-radius: 50%;
 	margin-left: 20px;
+	border: 1px solid #00A491;
 }
 
-header.login .user-icon img{
-	border-radius: 50%;
-	width: 100%;
-}
 </style>

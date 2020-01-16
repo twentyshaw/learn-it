@@ -6,8 +6,8 @@
 		<div class="container">
 		    <div class="ad-content">
 		      <h1>未経験からプログラマーへ</h1>
-		      <p>勉強を続けるコツは「仕組み」を作ること。脳科学が教える｢効率的に学習する方法｣6つのポイント </p>
-		      <p><a href="#" class="btn">会員登録</a></p>
+		      <p>勉強を続けるコツは「仕組み」を作ること。<br>脳科学が教える｢効率的に学習する方法｣</p>
+		      <p><a href="#" class="btn">JOIN US</a></p>
 		    </div>
 
 		    <div class="signup-box userbox">

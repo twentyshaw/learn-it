@@ -36,7 +36,12 @@ const actions = {
 	getInfo({commit,dispatch}){
 		var res = auth.current()
 		commit('setUser',{user:res,isLogin:res.islogin})
-		dispatch('courseInfo',null,{root:true}) //调用course模块中的courseInfo
+		if(state.isLogin){
+			dispatch('courseInfo',null,{root:true}) //调用course模块中的courseInfo
+			dispatch('memoListInfo',null,{root:true})
+			dispatch('avatarInfo',{user:res.userId},{root:true})
+			dispatch('forumListInfo',null,{root:true})
+		}
 		console.log('ok')
 		return res
 	},

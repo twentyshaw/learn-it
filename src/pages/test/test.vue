@@ -5,13 +5,13 @@
 			<h3 class="ttl">Course List</h3>
 			<div class="testlist-inner">
 				<ul>
-					<li><router-link to="/user/exercise/test01">小テスト01<template v-if="topTestResult[0].testResult"><span class="icon"><i class="el-icon-success"></i></span></template></router-link></li>
-					<li><router-link to="/user/exercise/test02">小テスト02<template v-if="topTestResult[1].testResult"><span class="icon"><i class="el-icon-success"></i></span></template></router-link></li>
-					<li><router-link to="/user/exercise/test03">小テスト03<template v-if="topTestResult[2].testResult"><span class="icon"><i class="el-icon-success"></i></span></template></router-link></li>
-					<li><router-link to="/user/exercise/test04">小テスト04<template v-if="topTestResult[3].testResult"><span class="icon"><i class="el-icon-success"></i></span></template></router-link></li>
-					<li><router-link to="/user/exercise/test05">小テスト05<template v-if="topTestResult[4].testResult"><span class="icon"><i class="el-icon-success"></i></span></template></router-link></li>
-					<li><router-link to="/user/exercise/test06">小テスト06<template v-if="topTestResult[5].testResult"><span class="icon"><i class="el-icon-success"></i></span></template></router-link></li>
-					<li><router-link to="/user/exercise/test07">最終テスト<template v-if="topTestResult[6].testResult"><span class="icon"><i class="el-icon-success"></i></span></template></router-link></li>
+					<li><router-link to="/user/exercise/exam/:exam01">小テスト01<template v-if="topTestResult[0].testResult"><span class="icon"><i class="el-icon-success"></i></span></template></router-link></li>
+					<li><router-link to="/user/exercise/exam/:exam02">小テスト02<template v-if="topTestResult[1].testResult"><span class="icon"><i class="el-icon-success"></i></span></template></router-link></li>
+					<li><router-link to="/user/exercise/exam/:exam03">小テスト03<template v-if="topTestResult[2].testResult"><span class="icon"><i class="el-icon-success"></i></span></template></router-link></li>
+					<li><router-link to="/user/exercise/exam/:exam04">小テスト04<template v-if="topTestResult[3].testResult"><span class="icon"><i class="el-icon-success"></i></span></template></router-link></li>
+					<li><router-link to="/user/exercise/exam/:exam05">小テスト05<template v-if="topTestResult[4].testResult"><span class="icon"><i class="el-icon-success"></i></span></template></router-link></li>
+					<li><router-link to="/user/exercise/exam/:exam06">小テスト06<template v-if="topTestResult[5].testResult"><span class="icon"><i class="el-icon-success"></i></span></template></router-link></li>
+					<li><router-link to="/user/exercise/exam/:exam07">最終テスト<template v-if="topTestResult[6].testResult"><span class="icon"><i class="el-icon-success"></i></span></template></router-link></li>
 				</ul>
 			</div>
 		</div>

@@ -10,6 +10,7 @@ import router from './router'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import './assets/font/font.css'
+import Util from '@/helper/util'
 
 
 
@@ -17,6 +18,7 @@ import './assets/font/font.css'
 Vue.config.productionTip = false
 Vue.use(VueResource)
 Vue.use(ElementUI)
+Vue.use(Util)
 
 
 
@@ -26,8 +28,5 @@ new Vue({
   router,
   store,
   components: { App },
-  template: '<App/>',
-  // created:function(){
-  // 	this.$store.dispatch('courseInfo')
-  // }
+  template: '<App/>'
 })

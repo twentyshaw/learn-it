@@ -9,13 +9,14 @@ export default{
 		}
 	},
 	methods:{
-		...mapActions(['register']),
+		...mapActions(['register','defaultAva']),
 		onRegister(e){
 			e.preventDefault()
 			this.register({email:this.email,username:this.username,password:this.password})
 				.then(()=>{
 					console.log("success"),
 					this.$router.push({path:'/user/home'})
+					this.defaultAva()
 				})
 		}
 	}

@@ -10,13 +10,15 @@ import "echarts/lib/chart/line";
 import 'echarts/lib/component/tooltip'
 import 'echarts/lib/component/title'
 import 'echarts/lib/component/legend'
+import { mapGetters } from 'vuex';
 export default {
   components: {
     "v-chart": ECharts
   },
-  data: function() {
-    return {
-      line: {
+  computed: {
+      ...mapGetters(['courseTests']),
+      line(){
+      return {
         title: {
             text: 'Ability Chart',
             top: 0,
@@ -57,12 +59,20 @@ export default {
             },
             {
                 name:'my score',
-                data: [5, 3, 4, 6, 5, 7, 9],
+                data: [
+                  this.courseTests[0].testPoint, 
+                  this.courseTests[1].testPoint, 
+                  this.courseTests[2].testPoint, 
+                  this.courseTests[3].testPoint, 
+                  this.courseTests[4].testPoint, 
+                  this.courseTests[5].testPoint, 
+                  this.courseTests[6].testPoint
+                  ],
                 type: 'line'
             }    
         ]
       }
-    }
+      }
   }
 }
 </script>

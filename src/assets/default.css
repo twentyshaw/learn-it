@@ -123,6 +123,12 @@ img{
     border-color: #00A491;
     background-color: #e9f5f3;
 }
+.el-button--text:focus,
+.el-button--text:hover{
+	color: #00A491;
+	border-color: transparent;
+    background-color: transparent;
+}
 .el-button--success,
 .el-button--primary{
 	background-color: #00A491;

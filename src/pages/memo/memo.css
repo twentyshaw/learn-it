@@ -1,7 +1,32 @@
-.memo-inner{
+.memo-list{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+}
+.addMemo{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.addMemo .add-icon{
+  display: block;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-icon:hover{
+  opacity: 0.8;
+}
+.addMemo .add-icon i{
+  font-size: 32px;
+  color: #00A491;
+  font-weight: bold;
 }
 
 /* 卡片样式 */
@@ -10,8 +35,10 @@
 }
 
 .item {
-  margin-bottom: 18px;
   text-align: left;
+  word-break: break-all;
+  max-height: 200px;
+  overflow: hidden;
 }
 
 .clearfix:after {
@@ -21,12 +48,27 @@
 .box-card {
   width: calc(100%/3 - 20px);
   margin: 10px;
+  min-height: 200px;
 }
 
 /* 追加卡片样式 */
 .el-card__header .clearfix{
   text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+/* .card-ttl{
+  width: 80%;
+}
+.card-ttl .ttl-name{
+  display: inline-block;
+  max-width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+} */
 .card-ttl .memo-time{
   font-size: 10px;
   padding-left: 10px;
