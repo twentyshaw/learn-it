@@ -123,6 +123,9 @@
 	padding-bottom: 10px;
 	border-bottom: 1px solid #ccc;
 }
+.memo-inner dl:nth-child(n+5){
+	display: none;
+}
 .memo-inner dl dt{
 	margin-bottom: 10px;
 	width: 100%;
@@ -189,17 +192,14 @@
 	text-align: left;
 }
 .recent dl.recent-user dt{
-    width: 10%;
+    width: 6%;
     display: flex;
     align-items: center;
 }
 .recent dl.recent-user dt .cus-icon{
-	display: block;
-    width: 36px;
-    height: 36px;
+    height: 38px;
     border-radius: 6px;
     border: 1px solid #00A491;
-    margin-right: 14px;
 }
 .recent dl.recent-user dt .cus-icon img{
 	border-radius: 6px;

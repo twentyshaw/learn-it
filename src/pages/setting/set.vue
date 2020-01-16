@@ -5,11 +5,8 @@
               <el-tooltip class="item" effect="dark" content="Click to select a picture" placement="right-start">
               <div class="set-avatar">
                 <input type="file" id="avatar" name="avatar" @change="onchange">
-                <span class="avatar-show">
-                    <img v-if="imagePreview" :src="imagePreview" class="avatar">
-                    <img v-else="insIcon" :src="insIcon" class="avatar">
-                    <!-- <i v-else class="el-icon-user avatar-uploader-icon"></i> -->
-                </span>
+                <el-avatar v-if="imagePreview" icon="el-icon-user-solid" shape="square" size="80" :src="imagePreview"></el-avatar>
+                <el-avatar v-else icon="el-icon-user-solid" shape="square" size="80" :src="insIcon"></el-avatar>
               </div>
               </el-tooltip>
               <div class="avatar-upload">

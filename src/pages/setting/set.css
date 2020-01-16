@@ -31,10 +31,10 @@ display: block;
 }
 .set-avatar{
     border: 1px solid #ccc;
-    border-radius: 6px;
+    border-radius: 4px;
     margin-right: 20px;
-    width: 80px;
-    height: 80px;
+    width: 82px;
+    height: 82px;
     background: #ccc;
 }
 .set-avatar:hover{
@@ -47,14 +47,9 @@ display: block;
     font-size: 64px;
     color: #fff;
 }
-.avatar-show{
+.el-avatar--80{
     width: 80px;
     height: 80px;    
-}
-.avatar-show img{
-    width: 100%;
-    height: 100%;
-    border-radius: 6px;
 }
 .set-profile{
     width: 60%;

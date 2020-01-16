@@ -84,7 +84,9 @@
 			<div class="recent-inner">
 			<dl class="recent-user" v-for="forum in forums" :key="forum">
 				<dt>
-					<span class="cus-icon"><img :src="forum.attributes.avatar" class="commicon"></span><span class="cus-name">{{forum.attributes.poster}}</span>
+					<span class="cus-icon">
+						<el-avatar icon="el-icon-user-solid" shape="square" size="medium" :src="forum.attributes.avatar"></el-avatar>
+					</span>
 				</dt>
 				<dd><span class="rec-text"><router-link :to="'/user/forum/forum_detail/:'+ forum.id">{{forum.attributes.forumttl}}</router-link></span><span class="rec-time">{{ formatDate(forum.updatedAt) }}</span></dd>
 			</dl>
