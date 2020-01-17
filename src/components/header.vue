@@ -15,7 +15,7 @@
 	<template v-if="isLogin">
 		<div class="nav-bar">
 			<div class="moto">
-				<p>What doesn’t kill you, makes you stronger</p>
+				<p>お疲れ様でした。<a href="https://forms.gle/8D1SkiZ3xo9yBtQ96" target="_blank">アンケート</a>の協力お願いいたします。</p>
 			</div>
 			<div class="user-tag">
 				<span class="greet">Hi, <em>{{username}}</em></span>
@@ -158,6 +158,10 @@ header.login .user-tag{
 }
 header.login .moto{
 	color: #00A491;
+}
+header.login .moto a{
+	color: #00A491;
+	text-decoration: underline;
 }
 header.login .greet em{
 	font-style: normal;
